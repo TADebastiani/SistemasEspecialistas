@@ -1,0 +1,17 @@
+status,positivo,negativo
+tensao_correta,ajuste_corrente,conexoes_apertadas
+conexoes_apertadas,falha_rede,falha_instalacao
+ajuste_corrente,curto_contador,falha_instalacao
+curto_contador,falha_instalacao,curto_motor
+curto_motor,falha_instalacao,ligacao_motor
+ligacao_motor,motor_novo,falha_instalacao
+motor_novo,aplicacao_nova,rotor_bloqueado
+aplicacao_nova,falha_dimensionamento,mecanica_travada
+mecanica_travada,falha_mecanica,defeito_motor
+rotor_bloqueado,rolamento_novo,mecanica_travada
+rolamento_novo,mecanica_travada,falha_mecanica
+falha_rede,,
+falha_instalacao,,
+falha_dimensionamento,,
+defeito_motor,,
+falha_mecanica,,

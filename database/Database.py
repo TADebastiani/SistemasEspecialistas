@@ -17,7 +17,10 @@ class Database:
 
     def get(self, table):
         cursor = self._cursor()
-        cursor.execute(f'select sintoma, estado from {table}')
+        if table == 'motor':
+            cursor.execute(f'select status, positivo, negativo from {table}')
+        else:
+            cursor.execute(f'select sintoma, estado from {table}')
         resultado = cursor.fetchall()
         self._close()
         return resultado
