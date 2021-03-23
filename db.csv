@@ -1,0 +1,17 @@
+,tensao_correta,conexoes_apertadas,ajuste_corrente,curto_contator,curto_motor,ligacao_motor,motor_novo,aplicacao_nova,mecanica_travada,rotor_bloqueado,rolamento_novo,falha_rede,falha_instalacao,falha_dimensionamento,defeito_motor,falha_mecanica
+tensao_correta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+conexoes_apertadas,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ajuste_corrente,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+curto_contator,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+curto_motor,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+ligacao_motor,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+motor_novo,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+aplicacao_nova,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+mecanica_travada,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,0
+rotor_bloqueado,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+rolamento_novo,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
+falha_rede,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+falha_instalacao,0,1,1,2,2,1,0,0,0,0,0,0,0,0,0,0
+falha_dimensionamento,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+defeito_motor,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+falha_mecanica,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0

@@ -16,13 +16,13 @@ class Base:
     def tamanho(self):
         print(len(self.resultado))
 
-    # imprime a probabilidade de acertar o item
+    """# imprime a probabilidade de acertar o item
     def probabilidade(self):
         num = len(self.resultado)
         if num == 0:
             num = 1
         return int((1 / num) * 100)
-
+    """
     # verifica se o item tem o atributo
     def busca(self, item, atributo):
         for i in range(len(self.db)):
